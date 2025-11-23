@@ -1,6 +1,6 @@
-# Flux Reconcile Enhanced
+# Flux Enhanced CLI
 
-A Go-based wrapper around `flux reconcile` that provides:
+A Go-based enhanced CLI for Flux that provides:
 
 - Real-time Kubernetes event monitoring
 - Colored output with emojis
@@ -10,7 +10,7 @@ A Go-based wrapper around `flux reconcile` that provides:
 ## Building
 
 ```bash
-go build -o flux-reconcile .
+go build -o flux-enhanced-cli .
 ```
 
 Or install to your PATH:
@@ -23,17 +23,17 @@ go install .
 
 ```bash
 # Reconcile a kustomization
-./flux-reconcile --kind kustomization --name my-app --namespace flux-system
+./flux-enhanced-cli --kind kustomization --name my-app --namespace flux-system
 
 # Reconcile a helmrelease
-./flux-reconcile --kind helmrelease --name my-app --namespace production
+./flux-enhanced-cli --kind helmrelease --name my-app --namespace production
 
 # Reconcile a git source
-./flux-reconcile --kind source --name my-repo --namespace flux-system
+./flux-enhanced-cli --kind source --name my-repo --namespace flux-system
 
 # Don't wait for completion
-./flux-reconcile --kind kustomization --name my-app --wait=false
+./flux-enhanced-cli --kind kustomization --name my-app --wait=false
 
 # Custom timeout
-./flux-reconcile --kind kustomization --name my-app --timeout 10m
+./flux-enhanced-cli --kind kustomization --name my-app --timeout 10m
 ```

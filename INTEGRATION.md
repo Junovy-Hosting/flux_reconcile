@@ -1,6 +1,6 @@
 # Integration
 
-The `flux-reconcile` binary can be integrated into shell scripts or other tooling to replace shell-based event monitoring.
+The `flux-enhanced-cli` binary can be integrated into shell scripts or other tooling to replace shell-based event monitoring.
 
 ## How It Works
 
@@ -14,7 +14,7 @@ The Go binary provides:
 ## Building and Installation
 
 ```bash
-go build -o flux-reconcile .
+go build -o flux-enhanced-cli .
 ```
 
 Or install to your PATH:

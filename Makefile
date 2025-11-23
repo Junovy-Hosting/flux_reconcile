@@ -1,14 +1,14 @@
 .PHONY: build install test clean
 
 build:
-	go build -o flux-reconcile .
+	go build -o flux-enhanced-cli .
 
 install: build
-	cp flux-reconcile ~/.local/bin/ || cp flux-reconcile /usr/local/bin/
+	cp flux-enhanced-cli ~/.local/bin/ || cp flux-enhanced-cli /usr/local/bin/
 
 test:
 	go test ./...
 
 clean:
-	rm -f flux-reconcile
+	rm -f flux-enhanced-cli
 

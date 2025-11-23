@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/junovy-hosting/flux-reconcile/pkg/events"
-	"github.com/junovy-hosting/flux-reconcile/pkg/output"
+	"github.com/junovy-hosting/flux-enhanced-cli/pkg/events"
+	"github.com/junovy-hosting/flux-enhanced-cli/pkg/output"
 )
 
 func main() {

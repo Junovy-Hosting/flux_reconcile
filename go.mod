@@ -1,4 +1,4 @@
-module github.com/bobbydrake/flux-reconcile
+module github.com/junovy-hosting/flux-enhanced-cli
 
 go 1.21
 

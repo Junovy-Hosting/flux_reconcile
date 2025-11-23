@@ -1,5 +1,5 @@
 # Binaries
-flux-reconcile
+flux-enhanced-cli
 *.exe
 *.exe~
 *.dll
